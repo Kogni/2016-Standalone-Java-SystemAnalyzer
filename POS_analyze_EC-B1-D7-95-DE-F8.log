@@ -1,0 +1,59 @@
+java.specification.version (1.8)  1.8
+JAVA_HOME (C:\Program Files\Java\jdk1.8.0_66) C:\Program Files\Java\jdk1.8.0_66
+PPP_HOME C:\PosPay
+ipv6 (null) null
+ 
+pospay.client.address=http:\/\/test-pospaydirecttx.payex.com:9010
+pospay.client.address2=http:\/\/test-pospaydirecttx.payex.com:9010
+pospay.client.configDownloadAddress=http:\/\/test-pospaydirecttx.payex.com:9010
+pospay.client.securityServer.url=https:\/\/test-pospay.payex.com:443\/SSLKeystoreServlet2\/KeystoreServlet
+pospay.client.securityServer.url2=https:\/\/test-pospay.payex.com:443\/SSLKeystoreServlet2\/KeystoreServlet
+pospay.client.CTDServer.address=http:\/\/test-pospaydirecttx.payex.com:9013
+pospay.client.keystore=\/data\/testClient.P12
+pospay.client.keystore.password=HLN0tapJuCTtXgHty07XgO3lckdOQx7m
+pospay.client.api.init.use.pospayservice=false
+pospay.client.relay.host.dst.addr=test-pospaydirecttx.payex.com
+pospay.client.relay.tms.dst.addr=91.208.214.34
+pospay.client.relay.tms.dst.port=7007
+pospay.client.relay.nfc.dst.addr=192.168.243.103
+pospay.client.relay.payextms.src.port=9010
+pospay.client.relay.payextms.dst.addr=test-pospaytx.payex.com
+pospay.client.relay.payextms.dst.port=443
+pospay.client.mobilePayBeacon = 10000015118099
+pospay.client.pinBeforeAmount = true
+pospay.client.receipt.useNewReceipt = false
+pospay.client.eventHandler.timeout = 1
+pospay.client.api.init.exec.nativeservice = false
+pospay.client.localeventhandler.enable = true
+pospay.client.supportsAddPrint = true
+pospay.client.cardExtensions.enabled=true
+pospay.client.forceDownloadOnStartup=true
+ 
+-- Command unable to run (stop RemoteAccess): [SC] OpenService FAILED 5:Access is denied.
+-- Command unable to run (start RemoteAccess): [SC] StartService: OpenService FAILED 5:Access is denied.
+-- Command unable to run (stop PosPayService): [SC] OpenService FAILED 5:Access is denied.
+-- Command unable to run (start PosPayService): [SC] StartService: OpenService FAILED 5:Access is denied.
+ 
+/1.1.1.1 is reachable (relay.SRC.addr)
+/1.1.1.2 is reachable (PINPAD.lan.ip)
+/127.0.0.1 is reachable (Self)
+/82.115.146.56:9010 is reachable (PayEx TMS, normal host address)
+/82.115.146.183:443 is reachable (evc.payex.com, Prod externt WAN)
+/91.208.214.34:7003 is reachable (Ingenico TMS DST, Prod externt internett)
+/91.208.214.34:7005 is reachable (TCP Relay service TMS dst, Prod externt internett)
+/192.168.243.103:9039 is reachable (DST nfc)
+/195.225.0.42:9010 is reachable (pospaywan.payex.com, Prod externt WAN)
+/195.225.0.42:9034 is reachable (pospaywan.payex.com, Prod externt WAN)
+/195.225.0.45:9046 is reachable (TMS IP)
+/195.225.0.45:9048 is reachable (TMS IP)
+/195.225.28.96:443 is reachable (pospay.payex.com, Prod externt)
+/195.225.28.97:443 is reachable ()
+/1.1.1.2:5188 is reachable (Terminal)
+ 
+--/1.1.1.1:7003 is NOT reachable (TCP Relay service SRC tms)
+--/1.1.1.1:9034 is NOT reachable (TCP Relay service SRC host)
+--/1.1.1.1:9039 is NOT reachable (TCP Relay service SRC nfc)
+--/172.25.129.20:8080 is NOT reachable (PayEx TMS)
+--/195.225.28.98:2121 is NOT reachable (pospayssh.payex.com, Prod externt internett)
+--/195.225.28.104:9010 is NOT reachable (PayEx TMS)
+Finished
